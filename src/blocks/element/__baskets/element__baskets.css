@@ -1,0 +1,13 @@
+.element__baskets {
+  padding: 0;
+  border: none;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  max-width: 18px;
+  min-height: 19px;
+  visibility:hidden;
+}

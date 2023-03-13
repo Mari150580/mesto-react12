@@ -1,0 +1,40 @@
+.elements {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 880px;
+  min-height: 744px;
+  display: grid;
+  grid-template-columns: repeat(3, fit-content(282px));
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px 17px;
+}
+@media screen and (max-width: 930px) {
+  .elements {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .elements {
+    margin-left: 35px;
+    margin-right: 35px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 530px) {
+  .elements {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .elements {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 20px 0;
+    margin-left: 19px;
+    margin-right: 19px;
+  }
+}

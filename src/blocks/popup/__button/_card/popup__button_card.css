@@ -1,0 +1,48 @@
+.popup__button_card {
+    padding: 0;
+    border: none;
+    margin: 0 auto 36px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 358px;
+    min-height: 50px;
+    background: #000000;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Inter", "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .popup__button_card_inactive {
+    opacity: 50%;
+    background: white;
+  }
+  .popup__button_card:hover {
+    opacity: 50%;
+  }
+  
+  @media screen and (max-width: 580px) {
+    .popup__button_card {
+      width: 280px;
+    }
+  }
+  
+  @media screen and (max-width: 440px) {
+    .popup__button_card {
+      width: 200px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .popup__button_card {
+      margin: 45px auto 25px auto;
+      min-width: 238px;
+      min-height: 46px;
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }

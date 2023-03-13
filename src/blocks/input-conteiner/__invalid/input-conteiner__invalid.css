@@ -1,0 +1,4 @@
+.input-conteiner__invalid {
+  border-bottom-color: red;
+  color: red;
+}

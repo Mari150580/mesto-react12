@@ -1,0 +1,34 @@
+.profile__avatar-pencil{
+    width: 14px;
+    height: 14px;
+    position:absolute;
+    top: 50px;
+    right: 50px;
+  }
+
+  @media screen and (max-width: 670px) {
+    .profile__avatar-pencil {
+      width: 10px;
+      height: 10px;
+      top: 50px;
+      right: 45px;
+    }
+  }
+  
+  @media screen and (max-width: 510px) {
+    .profile__avatar-pencil {
+      width: 8px;
+      height: 8px;
+      top: 30px;
+      right: 25px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .profile__avatar-pencil {
+      width: 14px;
+      height: 14px;
+      top: 50px;
+      right: 130px;
+    }
+  }
